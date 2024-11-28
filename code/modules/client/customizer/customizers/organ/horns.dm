@@ -1,14 +1,12 @@
-
-/datum/customizer/organ/horns
+/datum/customizer/bodypart_feature/horns
 	name = "Horns"
-	customizer_choices = list(/datum/customizer_choice/organ/horns)
+	customizer_choices = list(/datum/customizer_choice/bodypart_feature/horns)
 	allows_disabling = FALSE
 	default_disabled = FALSE
 
-/datum/customizer_choice/organ/horns
+/datum/customizer_choice/bodypart_feature/horns
 	name = "Horns"
-	organ_type = /datum/customizer/organ/horns
-	generic_random_pick = TRUE
+	feature_type = /datum/customizer/bodypart_feature/horns
 	sprite_accessories = list(
 		/datum/sprite_accessory/horns/tiefling,
 		/datum/sprite_accessory/horns/curled,

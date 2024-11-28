@@ -1,7 +1,3 @@
-
-
-
-
 //Horns below:
 /datum/sprite_accessory/horns
 	icon = 'icons/roguetown/mob/bodies/horns.dmi'

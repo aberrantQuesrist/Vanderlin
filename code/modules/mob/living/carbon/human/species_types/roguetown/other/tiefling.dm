@@ -58,7 +58,7 @@
 
 	customizers = list(
 		/datum/customizer/organ/eyes/humanoid,
-		/datum/customizer/organ/horns,
+		/datum/customizer/bodypart_feature/horns,
 		/datum/customizer/bodypart_feature/hair/head/humanoid,
 		/datum/customizer/bodypart_feature/hair/facial/humanoid,
 		/datum/customizer/bodypart_feature/accessory,
