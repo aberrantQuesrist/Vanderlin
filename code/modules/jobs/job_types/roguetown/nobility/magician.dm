@@ -18,7 +18,7 @@
 	display_order = JDO_MAGICIAN
 	tutorial = "Dream interpreter, soothsayer, astrologer and valued courtier, blessed by Noc. \
 	Indebted to the ruler for funding yils of mystical studies in these dark times, \
-	only wisdom and arcane knowledge amassed during a long life will allow a mage to unlock their full potential."
+	only wisdom and arcane knowledge amassed during a long life will allow a mage to unlock their full potential. Must worship Noc or Zizo."
 	outfit = /datum/outfit/job/roguetown/magician
 	whitelist_req = FALSE
 	bypass_lastclass = TRUE
@@ -39,7 +39,7 @@
 	shoes = /obj/item/clothing/shoes/roguetown/shortboots
 	backpack_contents = list(/obj/item/scrying = 1)
 	if(H.mind)
-		if(H.patron != /datum/patron/divine/noc)
+		if(H.patron != /datum/patron/divine/noc || /datum/patron/inhumen/zizo)
 			H.set_patron(/datum/patron/divine/noc)
 
 		H.mind?.adjust_skillrank(/datum/skill/misc/reading, 6, TRUE)
