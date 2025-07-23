@@ -1088,10 +1088,6 @@
 	},
 /turf/open/floor/ruinedwood/spiral,
 /area/rogue/indoors/town/orphanage)
-"aDN" = (
-/obj/machinery/light/fueled/firebowl,
-/turf/open/transparent/openspace,
-/area/rogue/outdoors/town/roofs)
 "aDU" = (
 /obj/structure/water_vent{
 	dir = 4
@@ -6727,6 +6723,12 @@
 	},
 /turf/open/floor/tile/masonic/spiral,
 /area/rogue/under/town/basement)
+"dVu" = (
+/obj/effect/landmark/hammer/dev_text{
+	name = "Remap ALL the damn houses, Aberra. Don't be lazy. -Aberra "
+	},
+/turf/open/floor/wood,
+/area/rogue/indoors/town)
 "dVy" = (
 /obj/structure/lever/hidden/keep{
 	redstone_id = "LordPassage"
@@ -12514,6 +12516,12 @@
 /obj/structure/flora/grass,
 /turf/open/floor/dirt,
 /area/rogue/outdoors/mountains)
+"hnE" = (
+/obj/effect/landmark/hammer/dev_text{
+	name = "Ook wants more staging areas. -Aberra."
+	},
+/turf/open/floor/wood,
+/area/rogue/indoors/town)
 "hnQ" = (
 /obj/structure/chair/wood/alt/fancy,
 /obj/effect/landmark/start/mercenary,
@@ -16597,6 +16605,12 @@
 "jPA" = (
 /turf/open/floor/ruinedwood/darker,
 /area/rogue/outdoors/town/roofs)
+"jPC" = (
+/obj/effect/landmark/hammer/dev_text{
+	name = "Move merchant to docks; Armorer to merchant."
+	},
+/turf/open/floor/blocks,
+/area/rogue/outdoors/town)
 "jPG" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_x = 32;
@@ -36264,6 +36278,12 @@
 	},
 /turf/open/floor/cobblerock,
 /area/rogue/under/town/caverogue)
+"wlK" = (
+/obj/effect/landmark/hammer/dev_text{
+	name = "Move to North side of smithy. Make a bit smaller."
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/rogue/indoors/town/smithy)
 "wlM" = (
 /obj/structure/stairs/stone/church{
 	dir = 1
@@ -38621,6 +38641,12 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/dungeon)
+"xKF" = (
+/obj/effect/mapping_helpers/access/keyset/manor/general,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/fancy,
+/turf/open/floor/tile,
+/area/rogue/indoors/town/manor/halls/s)
 "xKM" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/churchbrick,
@@ -85198,7 +85224,7 @@ pOS
 iGx
 iGx
 iGx
-iGx
+hnE
 iGx
 iGx
 wFF
@@ -85222,7 +85248,7 @@ qEb
 iGx
 niL
 niL
-iGx
+dVu
 qEb
 rEw
 rEw
@@ -101830,7 +101856,7 @@ uOB
 jNK
 weA
 weA
-weA
+wlK
 weA
 kAm
 ehF
@@ -102830,7 +102856,7 @@ uSV
 oLd
 ehF
 elp
-lsl
+jPC
 lsl
 elp
 elp
@@ -103365,7 +103391,7 @@ bIJ
 sAJ
 ldk
 clr
-jQC
+xKF
 clr
 clr
 clr
@@ -141393,7 +141419,7 @@ acx
 acx
 acx
 acx
-aDN
+acx
 acx
 acx
 acx
