@@ -180,6 +180,15 @@
 	background_track_night = 'sound/music/area/forestnight.ogg'
 	converted_type = /area/rogue/indoors/shelter/woods
 
+/area/rogue/outdoors/river/docks
+	name = "harbour"
+	icon_state = "docks"
+	converted_type = /area/rogue/indoors/town
+
+/area/rogue/outdoors/river/docks/Initialize()
+	. = ..()
+	first_time_text = "[uppertext(SSmapping.config.map_name)] HARBOUR"
+
 /area/rogue/outdoors/bog
 	name = "the bog"
 	icon_state = "bog"
@@ -357,6 +366,10 @@
 	background_track_dusk = 'sound/music/area/septimus.ogg'
 	background_track_night = 'sound/music/area/deliverer.ogg'
 	converted_type = /area/rogue/outdoors/exposed/town
+
+/area/rogue/indoors/town/town_house
+	name = "town house"
+	icon_state = "town_house"
 
 /area/rogue/outdoors/exposed/town
 	icon_state = "town"
