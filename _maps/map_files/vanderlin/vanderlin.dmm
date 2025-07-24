@@ -888,7 +888,7 @@
 "ays" = (
 /obj/structure/flora/grass,
 /obj/structure/flora/grass/bush_meagre,
-/turf/open/floor/dirt,
+/turf/open/floor/grass/mixyel,
 /area/rogue/outdoors/town)
 "ayy" = (
 /turf/closed/wall/mineral/stone/moss,
@@ -8491,6 +8491,10 @@
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/blocks/bluestone,
 /area/rogue/indoors/town)
+"eVx" = (
+/obj/structure/flora/grass,
+/turf/open/floor/grass/mixyel,
+/area/rogue/outdoors/town)
 "eVz" = (
 /obj/machinery/light/fueled/torchholder{
 	dir = 4
@@ -19236,6 +19240,10 @@
 /obj/machinery/light/fueled/firebowl/church,
 /turf/open/floor/cobblerock/alt,
 /area/rogue/outdoors/eora)
+"lFu" = (
+/obj/structure/flora/grass/bush,
+/turf/open/floor/grass/mixyel,
+/area/rogue/outdoors/town)
 "lFG" = (
 /obj/effect/decal/cobbleedge{
 	dir = 1;
@@ -22694,6 +22702,9 @@
 	},
 /turf/open/floor/wood,
 /area/rogue/indoors/town)
+"nIW" = (
+/turf/open/floor/grass/mixyel,
+/area/rogue/outdoors/town)
 "nJb" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
@@ -27184,6 +27195,10 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/rogue/indoors/town)
+"qCx" = (
+/obj/structure/flora/grass/bush_meagre,
+/turf/open/floor/grass/mixyel,
+/area/rogue/outdoors/town)
 "qCz" = (
 /obj/structure/door/violet{
 	lockid = "waterfront3";
@@ -32996,6 +33011,9 @@
 /obj/structure/chair/bench/church/smallbench,
 /turf/open/floor/ruinedwood/spiral,
 /area/rogue/indoors/town/orphanage)
+"ueD" = (
+/turf/open/floor/grass/mixyel,
+/area/rogue/under/town/caverogue)
 "ueJ" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -91282,7 +91300,7 @@ sWL
 cKJ
 sWL
 sWL
-qhM
+eVx
 vnF
 kTV
 wdY
@@ -91484,8 +91502,8 @@ vnF
 cKJ
 vnF
 sWL
-sWL
-sWL
+nIW
+nIW
 kTV
 cVH
 kTV
@@ -91879,7 +91897,7 @@ jdk
 kTV
 kTV
 nux
-sWL
+nIW
 mog
 sWL
 vnF
@@ -92295,7 +92313,7 @@ cKJ
 cKJ
 cKJ
 cKJ
-sWL
+nIW
 jdk
 kTV
 jdk
@@ -93094,7 +93112,7 @@ kTV
 bDv
 jdk
 mUs
-sWL
+nIW
 cKJ
 sWL
 qhM
@@ -95719,7 +95737,7 @@ oGS
 lEd
 cKJ
 bnp
-sWL
+nIW
 sWL
 vnF
 vnF
@@ -96533,8 +96551,8 @@ vnF
 vnF
 vnF
 vnF
-jdk
-sWL
+nIW
+vgh
 gwg
 ndj
 aFD
@@ -96735,8 +96753,8 @@ vnF
 vnF
 vnF
 vnF
-jim
-sWL
+lFu
+vgh
 cBJ
 xdM
 xJQ
@@ -96930,7 +96948,7 @@ bdK
 bdK
 bdK
 jdk
-sWL
+nIW
 jim
 sWL
 vnF
@@ -97140,7 +97158,7 @@ vnF
 vnF
 vnF
 jdk
-sWL
+nIW
 jdk
 cBJ
 cBJ
@@ -97342,7 +97360,7 @@ vnF
 vnF
 vnF
 vnF
-sWL
+nIW
 mog
 jdk
 oIh
@@ -98965,7 +98983,7 @@ sWL
 vnF
 vnF
 vue
-sWL
+nIW
 wNA
 rDr
 bUM
@@ -99571,7 +99589,7 @@ vnF
 vnF
 vnF
 sWL
-sWL
+nIW
 ays
 rDr
 rDr
@@ -100381,7 +100399,7 @@ vnF
 vnF
 vnF
 sWL
-sWL
+nIW
 qJl
 xBT
 rzJ
@@ -101385,7 +101403,7 @@ wSk
 vBg
 vBg
 pKQ
-sWL
+nIW
 bCh
 sWL
 vnF
@@ -101587,7 +101605,7 @@ sWL
 jdk
 mog
 oXQ
-sWL
+nIW
 mog
 jdk
 vnF
@@ -102799,7 +102817,7 @@ mog
 jdk
 wyC
 mog
-sWL
+nIW
 sWL
 rnP
 jdk
@@ -104208,7 +104226,7 @@ bET
 bET
 fGn
 kTV
-sWL
+nIW
 qhM
 vnF
 vnF
@@ -105017,8 +105035,8 @@ bET
 nCG
 sWL
 jdk
-sWL
-sWL
+nIW
+nIW
 sWL
 jdk
 mog
@@ -105615,14 +105633,14 @@ sWL
 jdk
 jdk
 oXQ
-jdk
-qhM
-jdk
-jdk
+nIW
+eVx
 jdk
 jdk
 jdk
-sWL
+jdk
+jdk
+nIW
 vnF
 vnF
 vnF
@@ -106033,8 +106051,8 @@ jdk
 sWL
 mog
 jdk
-jdk
-oXQ
+nIW
+qCx
 wNA
 vgJ
 vgJ
@@ -106435,7 +106453,7 @@ jdk
 jdk
 jdk
 jdk
-sWL
+nIW
 vgJ
 vgJ
 vgJ
@@ -106621,7 +106639,7 @@ xrm
 xWS
 oIh
 mog
-sWL
+nIW
 kTV
 nux
 sWL
@@ -107226,7 +107244,7 @@ vgJ
 vgJ
 vgJ
 wNA
-sWL
+nIW
 nux
 lIF
 cKJ
@@ -107438,7 +107456,7 @@ cKJ
 sWL
 nux
 sWL
-sWL
+nIW
 ntp
 vee
 xjd
@@ -107639,7 +107657,7 @@ sWL
 sWL
 xWS
 nux
-sWL
+nIW
 wNA
 vgJ
 vgJ
@@ -111302,7 +111320,7 @@ xYa
 xYa
 xYa
 xYa
-vgJ
+ueD
 vgJ
 vgJ
 vgJ

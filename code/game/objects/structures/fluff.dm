@@ -1357,3 +1357,39 @@
 /obj/structure/fluff/steamvent/Initialize()
 	. = ..()
 	MakeParticleEmitter(/particles/smoke/cig/big)
+
+/obj/structure/fluff/canopy
+	name = "cloth canopy"
+	desc = "A patterned cloth canopy, popular with traders."
+	icon = 'icons/roguetown/misc/decoration_tall.dmi'
+	icon_state = "canopy"
+	density = FALSE
+	anchored = TRUE
+	layer = ABOVE_MOB_LAYER
+	plane = GAME_PLANE_UPPER
+	blade_dulling = DULLING_BASH
+	resistance_flags = FLAMMABLE
+	uses_lord_coloring = LORD_PRIMARY | LORD_SECONDARY
+	max_integrity = 20
+	integrity_failure = 0.33
+	dir = SOUTH
+	destroy_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
+	attacked_sound = list('sound/combat/hits/onwood/woodimpact (1).ogg','sound/combat/hits/onwood/woodimpact (2).ogg')
+
+/obj/structure/fluff/littleflags
+	name = "hanging flags"
+	desc = "Several flags celebrating the lord's colours. They bring a lively market feel."
+	icon = 'icons/roguetown/misc/decoration_tall.dmi'
+	icon_state = "littleflags"
+	density = FALSE
+	anchored = TRUE
+	layer = ABOVE_MOB_LAYER
+	plane = GAME_PLANE_UPPER
+	blade_dulling = DULLING_BASH
+	resistance_flags = FLAMMABLE
+	uses_lord_coloring = LORD_PRIMARY | LORD_SECONDARY
+	max_integrity = 20
+	integrity_failure = 0.33
+	dir = SOUTH
+	destroy_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
+	attacked_sound = list('sound/combat/hits/onwood/woodimpact (1).ogg','sound/combat/hits/onwood/woodimpact (2).ogg')
