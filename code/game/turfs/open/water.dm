@@ -722,11 +722,11 @@
 				A.ConveyorMove(dir)
 
 /turf/open/water/river/dirt
-	icon_state = MAP_SWITCH("dirty", "rivermovealt-dir")
+	icon_state = MAP_SWITCH("dirt", "rivermovealt-dir")
 	water_reagent = /datum/reagent/water/gross/sewer
 
 /turf/open/water/river/blood
-	icon_state = MAP_SWITCH("rocky", "rivermovealt2-dir")
+	icon_state = MAP_SWITCH("rock", "rivermovealt2-dir")
 	water_reagent = /datum/reagent/blood
 
 /turf/open/water/acid // holy SHIT

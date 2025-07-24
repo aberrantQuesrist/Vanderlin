@@ -134,6 +134,7 @@
 /turf/open/floor/grass
 	name = "grass"
 	desc = "Grass, sodden in mud and bogwater."
+	icon = 'icons/turf/floors_nature.dmi'
 	icon_state = "grass"
 	footstep = FOOTSTEP_GRASS
 	barefootstep = FOOTSTEP_SOFT_BAREFOOT
@@ -178,6 +179,12 @@
 	icon_state = "grass_cold"
 	neighborlay = "grass_coldedge"
 
+/turf/open/floor/grass/green
+	name = "grass"
+	desc = "Grass, saturated and springy. It's greener on this side."
+	icon_state = "grass_green"
+	neighborlay = "grass_greenedge"
+
 /turf/open/floor/grass/hell
 	name = "hell grass"
 	desc = "Grass, ominous and instilling uncomfort."
@@ -192,6 +199,7 @@
 /turf/open/floor/snow
 	name = "snow"
 	desc = "A gentle blanket of snow."
+	icon = 'icons/turf/floors_nature.dmi'
 	icon_state = "snow"
 	footstep = FOOTSTEP_GRASS
 	barefootstep = FOOTSTEP_SOFT_BAREFOOT
@@ -224,6 +232,7 @@
 /turf/open/floor/dirt
 	name = "dirt"
 	desc = "The dirt is pocked with the scars of countless wars."
+	icon = 'icons/turf/floors_nature.dmi'
 	icon_state = "dirt"
 	footstep = FOOTSTEP_GRASS
 	barefootstep = FOOTSTEP_SOFT_BAREFOOT
@@ -332,6 +341,7 @@
 /turf/open/floor/dirt/road
 	name = "dirt road"
 	desc = "The dirt is pocked with the scars of countless steps."
+	icon = 'icons/turf/floors_nature.dmi'
 	icon_state = "road"
 	footstep = FOOTSTEP_SAND
 	smoothing_flags = NONE
