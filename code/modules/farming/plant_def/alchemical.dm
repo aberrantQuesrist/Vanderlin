@@ -8,8 +8,9 @@
 	uproot_loot = list(/obj/item/grown/log/tree/stick)
 	perennial = TRUE
 	produce_amount_min = 1
-	produce_amount_max = 3
+	produce_amount_max = 2
 	maturation_time = FAST_GROWING
+	produce_time = SLOW_PRODUCE_TIME
 	water_drain_rate = 1 / (2 MINUTES)
 	can_grow_underground = TRUE
 	plant_family = FAMILY_HERB
@@ -22,7 +23,7 @@
 	potassium_production = 12
 
 /datum/plant_def/alchemical/set_genetic_tendencies(datum/plant_genetics/base_genetics)
-	base_genetics.quality_trait = TRAIT_GRADE_EXCELLENT  // Herbs are prized for quality
+	base_genetics.quality_trait = TRAIT_GRADE_GOOD  // Herbs are prized for quality
 	base_genetics.disease_resistance = TRAIT_GRADE_GOOD  // Natural compounds deter pests
 
 /datum/plant_def/alchemical/atropa
@@ -32,15 +33,17 @@
 	nitrogen_requirement = 25  // Deadly nightshade needs more N
 	phosphorus_requirement = 35  // Alkaloid production
 	potassium_requirement = 18
+	seed_identity = "atropa seeds"
 
 /datum/plant_def/alchemical/atropa/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.disease_resistance = TRAIT_GRADE_EXCELLENT  // Highly toxic = very pest resistant
+	base_genetics.disease_resistance = TRAIT_GRADE_GOOD  // Highly toxic = very pest resistant
 
 /datum/plant_def/alchemical/matricaria
 	name = "matricaria"
 	icon_state = "matricaria"
 	produce_type = /obj/item/alch/matricaria
+	seed_identity = "matricaria seeds"
 
 /datum/plant_def/alchemical/symphitum
 	name = "symphitum"
@@ -49,10 +52,11 @@
 	nitrogen_requirement = 30  // Comfrey is a heavy feeder
 	phosphorus_requirement = 20
 	potassium_requirement = 25
+	seed_identity = "symphitum seeds"
 
 /datum/plant_def/alchemical/symphitum/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.yield_trait = TRAIT_GRADE_EXCELLENT  // Comfrey grows vigorously
+	base_genetics.yield_trait = TRAIT_GRADE_GOOD  // Comfrey grows vigorously
 
 /datum/plant_def/alchemical/taraxacum
 	name = "taraxacum"
@@ -61,16 +65,18 @@
 	nitrogen_requirement = 15  // Dandelions are very efficient
 	phosphorus_requirement = 20
 	potassium_requirement = 15
+	seed_identity = "taraxacum seeds"
 
 /datum/plant_def/alchemical/taraxacum/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.water_efficiency = TRAIT_GRADE_EXCELLENT  // Dandelions are tough
-	base_genetics.cold_resistance = TRAIT_GRADE_EXCELLENT
+	base_genetics.water_efficiency = TRAIT_GRADE_GOOD  // Dandelions are tough
+	base_genetics.cold_resistance = TRAIT_GRADE_GOOD
 
 /datum/plant_def/alchemical/euphrasia
 	name = "euphrasia"
 	icon_state = "euphrasia"
 	produce_type = /obj/item/alch/euphrasia
+	seed_identity = "euphrasia seeds"
 
 /datum/plant_def/alchemical/urtica
 	name = "urtica"
@@ -79,16 +85,17 @@
 	nitrogen_requirement = 35  // Nettles love nitrogen
 	phosphorus_requirement = 15
 	potassium_requirement = 20
+	seed_identity = "urtica seeds"
 
 /datum/plant_def/alchemical/urtica/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.disease_resistance = TRAIT_GRADE_EXCELLENT  // Stinging = pest resistant
-	base_genetics.yield_trait = TRAIT_GRADE_EXCELLENT
+	base_genetics.disease_resistance = TRAIT_GRADE_GOOD  // Stinging = pest resistant
 
 /datum/plant_def/alchemical/calendula
 	name = "calendula"
 	icon_state = "calendula"
 	produce_type = /obj/item/alch/calendula
+	seed_identity = "calendula seeds"
 
 /datum/plant_def/alchemical/mentha
 	name = "mentha"
@@ -97,31 +104,35 @@
 	nitrogen_requirement = 25
 	phosphorus_requirement = 15
 	potassium_requirement = 30  // Mint spreads with runners
+	seed_identity = "mentha seeds"
 
 /datum/plant_def/alchemical/mentha/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.disease_resistance = TRAIT_GRADE_EXCELLENT  // Aromatic oils repel pests
-	base_genetics.yield_trait = TRAIT_GRADE_EXCELLENT
+	base_genetics.disease_resistance = TRAIT_GRADE_GOOD  // Aromatic oils repel pests
 
 /datum/plant_def/alchemical/salvia
 	name = "salvia"
 	icon_state = "salvia"
 	produce_type = /obj/item/alch/salvia
+	seed_identity = "salvia seeds"
 
 /datum/plant_def/alchemical/hypericum
 	name = "hypericum"
 	icon_state = "hypericum"
 	produce_type = /obj/item/alch/hypericum
+	seed_identity = "hypericum seeds"
 
 /datum/plant_def/alchemical/benedictus
 	name = "benedictus"
 	icon_state = "benedictus"
 	produce_type = /obj/item/alch/benedictus
+	seed_identity = "benedictus seeds"
 
 /datum/plant_def/alchemical/valeriana
 	name = "valeriana"
 	icon_state = "valeriana"
 	produce_type = /obj/item/alch/valeriana
+	seed_identity = "valeriana seeds"
 
 /datum/plant_def/alchemical/paris
 	name = "paris"
@@ -130,19 +141,21 @@
 	nitrogen_requirement = 18
 	phosphorus_requirement = 35  // Toxic compounds need P
 	potassium_requirement = 15
+	seed_identity = "paris seeds"
 
 /datum/plant_def/alchemical/paris/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.disease_resistance = TRAIT_GRADE_EXCELLENT  // Very toxic
+	base_genetics.disease_resistance = TRAIT_GRADE_GOOD  // Very toxic
 
 /datum/plant_def/alchemical/artemisia
 	name = "artemisia"
 	icon_state = "artemisia"
 	produce_type = /obj/item/alch/artemisia
+	seed_identity = "artemisia seeds"
 
 /datum/plant_def/alchemical/artemisia/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.water_efficiency = TRAIT_GRADE_EXCELLENT  // Wormwood is drought tolerant
+	base_genetics.water_efficiency = TRAIT_GRADE_GOOD  // Wormwood is drought tolerant
 
 /datum/plant_def/alchemical/rosa
 	name = "rosa"
@@ -152,10 +165,7 @@
 	nitrogen_requirement = 30
 	phosphorus_requirement = 25
 	potassium_requirement = 35
-
-/datum/plant_def/alchemical/rosa/set_genetic_tendencies(datum/plant_genetics/base_genetics)
-	..()
-	base_genetics.quality_trait = TRAIT_GRADE_EXCELLENT  // Roses are prized for beauty
+	seed_identity = "rosa seeds"
 
 /datum/plant_def/alchemical/euphorbia
 	name = "euphorbia"
@@ -164,8 +174,9 @@
 	nitrogen_requirement = 15  // Succulents are efficient
 	phosphorus_requirement = 30  // Latex production
 	potassium_requirement = 20
+	seed_identity = "euphorbia seeds"
 
 /datum/plant_def/alchemical/euphorbia/set_genetic_tendencies(datum/plant_genetics/base_genetics)
 	..()
-	base_genetics.water_efficiency = TRAIT_GRADE_EXCELLENT  // Succulent
-	base_genetics.disease_resistance = TRAIT_GRADE_EXCELLENT  // Toxic latex
+	base_genetics.water_efficiency = TRAIT_GRADE_GOOD  // Succulent
+	base_genetics.disease_resistance = TRAIT_GRADE_GOOD  // Toxic latex
